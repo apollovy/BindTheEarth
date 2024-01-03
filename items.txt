@@ -17,7 +17,7 @@ sound ^= You drop:phonehangup.wav
 # Don't let ring-equip prompt play sounds
 #sound ^= or [a-zA-Z] - :
 sound ^= Really put on a [a-zA-Z] - (a|an|the|The) :mysterious.wav
-sound ^= Oops, that.*feels deathly cold:eb_creepy.wav
+#sound ^= Oops, that.*feels deathly cold:eb_creepy.wav
 
 #sound ^= You finish (taking off|putting on):equip.wav
 #sount ^= You remove your :equip.wav

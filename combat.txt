@@ -1,11 +1,11 @@
-sound ^= FIRE_PROMPT_SOUND:attack1.wav
+sound ^= FIRE_PROMPT:attack1.wav
 
 sound ^= (You|Your) (hit|kick|thump|sock|bite|tail-slap|scratch|slash|slice|headbutt|puncture):bash.wav
 sound ^= (hits|kicks|thumps|socks|bites|tail-slaps|scratches|slashes|slices|headbutts|punctures):storm4.wav
 
 sound ^= The helpless.*fails to defend itself:smash.wav
 sound ^= You pounce on the unaware.*:smash.wav
-sound ^= You open.*like a pillowcase
+#sound ^= You open.*like a pillowcase
 
 sound ^= .* but do no damage:dodge.wav
 sound ^= miss:miss.wav
